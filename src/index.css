@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,13 +65,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 
 .card{
-  border: 1px solid rgb(212, 202, 202);
+  border: 1px solid rgba(76, 73, 73, 0.514);
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(221, 221, 221, 0.278);
+  box-shadow: 5px 5px 5px rgba(44, 42, 42, 0.389);
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -94,5 +94,25 @@ button:focus-visible {
 
 .card .card-text{
   font-family: arial, sans-serif;
-  color: rgb(0, 217, 255);
+  color: rgb(91, 92, 93);
+}
+/* 
+.button{
+  background-color: rgb(61, 150, 20);
+  color: rgb(246, 235, 235);
+  padding:10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size:1em;
+  padding: 10px ;
+  margin: 10px;
+  border:1px solid hsla(0, 0%, 50%, 0.8);
+}
+
+.student p{
+  margin:0;
 }
